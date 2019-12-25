@@ -87,6 +87,7 @@ def draw_board():
 # Game starts here
 def start_game():
     count = 0
+    global winner
     while count <= 9:
         position_1 = int(input("Choose your position (1-9): "))
         set_marker(position_1, marker1)
